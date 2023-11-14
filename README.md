@@ -4,8 +4,8 @@
 
 | Date        | Petar | Rudys |
 |-------------|-----------|-----------|
-| Nov 7 (Tue) |     X      |           |
-| Nov 9 (Thu)|      X     |           |
+| Nov 7 (Tue) |     X      |      X     |
+| Nov 9 (Thu)|      X     |     X      |
 | Nov 14 (Tue)|           |           |
 | Nov 16 (Thu)|           |           |
 | *Nov 21 (Tue)* |       |           |<!-- Skipped for Thanksgiving -->
