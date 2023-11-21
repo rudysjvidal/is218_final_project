@@ -1,3 +1,28 @@
+# TOP LEVEL USER STORIES
+
+## Initiative
+Alex is looking for a good-quality blank T-shirt site that doesn’t cost as much as other competitors.
+
+### Epic (Awareness)
+- **User Story 1 (Discovery):** While Alex searches for trendy blank t-shirts online, the website catches his eye in the search results, thanks to effective SEO strategies.
+
+### Epic (Interest)
+- **User Story 2 (Engaging Content):** Intrigued, Alex clicks on the website and finds captivating blog content about blank t-shirts, offering insights into fashion trends and sustainability.
+
+### Epic (Action)
+- **User Story 3 (Social Media Visibility):** Keen on exploring further, Alex follows the brand on social media platforms, such as Instagram and Facebook, enticed by visually appealing content showcasing their blank t-shirts.
+
+### Epic (Purchase Intent)
+- **User Story 4 (Limited-Time Offers):** Delving deeper into the website, Alex discovers enticing limited-time discounts or promotions, creating a sense of urgency and motivating him to make a purchase.
+
+### Epic (Optimization)
+- **User Story 5 (Streamlined Checkout):** Ready to buy, Alex appreciates a streamlined checkout process, ensuring a quick and straightforward experience, saving him time and making the purchase seamless.
+
+### Epic (Loyalty)
+- **User Story 6 (Loyalty Programs):** Having made a purchase, Alex finds value in being rewarded for his loyalty through a points-based program, encouraging him to continue engaging with the brand.
+
+
+
 ## Initiative: Enhance Online Presence and Traffic
 
 ### Epic 1: Boost Website Visibility through SEO
