@@ -63,6 +63,10 @@ Alex is looking for a good-quality blank T-shirt site that doesn’t cost as muc
 - **Task:** Alex wants a smooth checkout process and efficient cart management.
 - **Action:** Adds multiple items to the cart and adjusts quantities effortlessly.
 - **Result:** Easily manages the cart and proceeds to checkout seamlessly.
+### User Story 8 (Preference Customization): 
+- **Task:** Alex wishes to customize the visuals of the webpage for a personalized experience.
+- **Action:** Clicks on the Dark Mode button which changes the visuals of the website to a dark theme.
+- **Result:** Tailors visual preference based on personal choice.
 
 ## Epic (Loyalty)
 ### User Story 9 (Exploring Loyalty Rewards)
