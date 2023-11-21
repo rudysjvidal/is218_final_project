@@ -8,7 +8,7 @@
 | Nov 9 (Thu)|      X     |     X      |
 | Nov 14 (Tue)|     X      |    X      |
 | Nov 16 (Thu)|     X     |     X      |
-| *Nov 21 (Tue)* |       |           |<!-- Skipped for Thanksgiving -->
+| Nov 21 (Tue) |    X   |           |
 | *Nov 23 (Thu)* |       |           |<!-- Skipped for Thanksgiving -->
 | Nov 28 (Tue)|           |           |
 | Nov 30 (Thu) |           |           |
