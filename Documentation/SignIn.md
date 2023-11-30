@@ -10,8 +10,8 @@
 | Nov 16 (Thu)|     X     |     X      |
 | Nov 21 (Tue) |    X   |       X    |
 | *Nov 23 (Thu)* |       |           |<!-- Skipped for Thanksgiving -->
-| Nov 28 (Tue)|           |           |
-| Nov 30 (Thu) |           |           |
+| Nov 28 (Tue)|           |     X      |
+| Nov 30 (Thu) |           |    X       |
 
 ### December 2023
 
