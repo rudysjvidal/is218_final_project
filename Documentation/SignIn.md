@@ -17,7 +17,7 @@
 
 | Date        | Petar | Rudys |
 |-------------|-----------|-----------|
-| Dec 5 (Tue) |           |           |
+| Dec 5 (Tue) |       X    |           |
 | Dec 7 (Thu) |           |           |
 | Dec 12 (Tue)|           |           |
 | Dec 14 (Thu)|           |           |
