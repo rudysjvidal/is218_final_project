@@ -1,0 +1,83 @@
+/* ColorChangingTshirt.module.css */
+.main {
+    margin: auto;
+    width: 100%;
+    align-items: center;
+    background: linear-gradient(180deg, #FFF 0%, #FAFAFA 100%);
+}
+
+#colored {
+    padding: 3% 0;
+}
+
+.cardss {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 1%;
+    width: 100%;
+}
+
+
+.colorinputs {
+    display: grid;
+    background-color: #F0F0F0;
+    text-align: center;
+    padding: 3%;
+    font-weight: 600;
+}
+
+.shop-color {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 142px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    /* Set to 100% to take the full width */
+    max-width: 80%;
+    /* Set to 100% to take the full width */
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(/images/rainbowshirts.webp), lightgray -47.966px -46.112px / 106.383% 587.485% no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    margin-bottom: 2%;
+}
+
+.shop-color h3 {
+    color: #FFF;
+    text-align: center;
+    font-size: 78px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35.5px;
+    text-transform: uppercase;
+    padding: 6%;
+    white-space: nowrap;
+}
+
+.cardss>* p {
+    padding: 10% 0 0 0;
+}
+
+.cardss .card1 {
+    grid-template-rows: .75fr .25fr;
+    justify-content: center;
+    flex: 1;
+    text-align: center;
+    align-items: center;
+    background-color: #F0F0F0;
+    margin: 1%;
+    padding: 2%;
+    font-weight: 600;
+    display: grid;
+    max-width: 100px;
+    /* Set a maximum width */
+    width: 100%;
+    /* Responsive width */
+
+}
+
+
