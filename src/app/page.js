@@ -2,6 +2,8 @@ import Image from 'next/image'
 import Promotion from '../../components/promotion';
 import Navbar from '../../components/navbar';
 import Hero from '../../components/hero';
+import MensClothing from '../../components/mens_clothing';
+
 
 
 export default function Home() {
@@ -10,6 +12,8 @@ export default function Home() {
       <Promotion />
       <Navbar />
       <Hero />
+      <MensClothing />
+
     </main>
   )
 }
