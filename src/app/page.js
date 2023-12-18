@@ -8,8 +8,6 @@ import Color from '../../components/selectbycolor';
 
 
 
-
-
 export default function Home() {
   return (
     <main>
