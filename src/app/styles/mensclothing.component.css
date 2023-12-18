@@ -72,3 +72,14 @@
   white-space: nowrap;
 
 }
+
+
+@media (max-width: 767px) {
+
+
+  .shop-men h3 {
+    font-size: 58px;
+  }
+
+
+}
