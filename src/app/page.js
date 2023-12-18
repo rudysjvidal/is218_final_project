@@ -5,6 +5,8 @@ import Hero from '../../components/hero';
 import MensClothing from '../../components/mens_clothing';
 import WomensClothing from '../../components/womens_clothing';
 import Color from '../../components/selectbycolor';
+import About from '../../components/about';
+
 
 
 
@@ -17,6 +19,7 @@ export default function Home() {
       <MensClothing />
       <WomensClothing />
       <Color />
+      <About />
 
     </main>
   )
