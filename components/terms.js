@@ -1,5 +1,5 @@
 
-//import styles from '../src/app/styles/terms.component.css';
+import styles from '../src/app/styles/terms.component.css';
 
 const TermsAndConditions = () => {
     return (
