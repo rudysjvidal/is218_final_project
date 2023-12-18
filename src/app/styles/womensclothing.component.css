@@ -1,0 +1,78 @@
+main {
+  align-items: center;
+  background: linear-gradient(180deg, #FFF 0%, #FAFAFA 100%);
+}
+
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+  width: 100%;
+}
+
+
+.card1 {
+  justify-content: center;
+  flex: 1;
+  text-align: center;
+  align-items: center;
+  background-color: #F0F0F0;
+  margin: 2%;
+  padding: 2%;
+  font-weight: 600;
+  display: grid;
+  grid-template-rows: .75fr .25fr;
+
+  max-width: 275px;
+  /* Set a maximum width */
+  width: 100%;
+  /* Responsive width */
+}
+
+.card1 img {
+  width: 100%;
+  /* Make sure the image fills the container */
+}
+
+.shop-women {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 142px;
+  justify-content: center;
+  align-items: center;
+  max-width: 1607px;
+  width: 80%;
+  margin-top: 89.23px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(/images/women.webp), lightgray -47.966px -46.112px / 106.383% 587.485% no-repeat;
+  background-position: center;
+  /* Center the background image horizontally */
+  background-size: cover;
+  /* Cover the entire container with the background image */
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.shop-women h3 {
+  color: #FFF;
+  text-align: center;
+  font-size: 88px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35.5px;
+  /* 40.341% */
+  text-transform: uppercase;
+  padding: 6%;
+  white-space: nowrap;
+
+}
+
+
+@media (max-width: 767px) {
+
+
+  .shop-women h3 {
+    font-size: 58px;
+  }
+}
