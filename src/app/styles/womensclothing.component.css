@@ -69,3 +69,10 @@ main {
 }
 
 
+@media (max-width: 767px) {
+
+
+  .shop-women h3 {
+    font-size: 58px;
+  }
+}
