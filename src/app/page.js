@@ -7,6 +7,7 @@ import WomensClothing from '../../components/womens_clothing';
 import Color from '../../components/selectbycolor';
 import About from '../../components/about';
 import Slogan from '../../components/slogan';
+import Footer from '../../components/footer';
 
 
 
@@ -23,6 +24,7 @@ export default function Home() {
       <Color />
       <About />
       <Slogan />
+      <Footer />
 
     </main>
   )
