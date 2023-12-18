@@ -1,4 +1,4 @@
-import styles from '../src/app/styles/hero.component.css';
+//import styles from '../src/app/styles/hero.component.css';
 import React from "react";
 
 
