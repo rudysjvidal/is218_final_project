@@ -1,4 +1,4 @@
-//import styles from '../src/app/styles/promotion.component.css';
+import styles from '../src/app/styles/promotion.component.css';
 
 export default function Promotion() {
     return (

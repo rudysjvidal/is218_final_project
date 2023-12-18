@@ -1,0 +1,35 @@
+.promo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #3E4551;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.promo .promo-text p {
+  display: inline-block;
+  color: #FAFAFA;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27.5px;
+  /* 119.565% */
+}
+
+.promo .promo-text .red-text {
+  color: #FFFF;
+}
+
+@media (max-width: 766px){
+  .promo{
+  padding: calc(10px * .5);
+  }
+
+  .promo .promo-text p {
+    font-size: calc(16px * .7);
+  } 
+
+
+}
