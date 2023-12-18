@@ -10,11 +10,3 @@ export default function Hero() {
         </main>
     )
 }
-
-/*
-<a>
-<Button color="primary" radius="full" className="hero-button-2">
-    SIGN UP HERE
-</Button>
-</a> 
-*/
