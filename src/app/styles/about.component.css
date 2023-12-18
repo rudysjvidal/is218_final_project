@@ -1,0 +1,52 @@
+.about-section {
+  display: flex;
+  gap: 20px;
+}
+
+.about-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 271px;
+  padding-bottom: 370px;
+  margin-left: 76px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.about-text h3 {
+  color: #3E4551;
+  font-size: 77px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 101.5px;
+  /* 131.818% */
+  text-transform: uppercase;
+}
+
+.about-text p {
+  color: #000;
+  font-size: 31px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 45px;
+  /* 145.161% */
+  max-width: 797px;
+}
+
+
+.about-image {
+  margin-left: auto;
+  max-width: 960px;
+  max-height: 1080px;
+  display: flex;
+  align-items: center;
+}
+
+.about-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
