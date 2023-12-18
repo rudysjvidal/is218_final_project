@@ -1,5 +1,6 @@
 //import styles from '../src/app/styles/hero.component.css';
 import React from "react";
+import { Button } from "@nextui-org/react";
 
 
 
@@ -15,6 +16,13 @@ export default function Hero() {
                     <div className="hero-text">
                         <h1>ELEVATE YOUR ESSENTIALS</h1>
                         <h3>EARN 30% OFF WHEN YOU SIGN UP</h3>
+                    </div>
+                    <div className="button-div" >
+                        <a href="#mc_embed_shell">
+                            <Button color="primary" radius="full" className="hero-button-2">
+                                SIGN UP HERE
+                            </Button>
+                        </a>
                     </div>
                 </div>
             </div>
