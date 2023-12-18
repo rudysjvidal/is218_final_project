@@ -1,0 +1,47 @@
+#mc_embed_shell {
+  max-width: 100%;
+
+}
+
+#mc_embed_signup {
+  clear: left;
+  font: 14px Helvetica, Arial, sans-serif;
+  width: 600px;
+  font-family: '__Poppins_b809fa', '__Poppins_Fallback_b809fa';
+  padding-top: 80px;
+  padding-bottom: 80px;
+  max-width: 100%;
+}
+
+#mce-error-response {
+  display: none;
+}
+
+#mce-success-response {
+  display: none;
+}
+
+#aria-hidden-thing {
+  position: absolute;
+  left: -5000px;
+}
+
+#mc_embed_signup #mc_embed_signup_scroll h2 {
+  color: #3E4551;
+  font-family: '__Poppins_b809fa', '__Poppins_Fallback_b809fa';
+  font-style: normal;
+  font-size: 40px;
+  margin-top: 0;
+}
+
+#mc_embed_signup #mc_embed_signup_scroll label {
+  font-size: 17px;
+}
+
+#mce-EMAIL {
+  max-width: 100%;
+}
+
+#mc_embed_signup .button{
+  background-color: #3E4551 !important; 
+}
