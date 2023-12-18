@@ -65,3 +65,28 @@
 
 }
 
+@media (min-width: 1300px) {
+  .footer {
+    font-size: 1vw;
+
+  }
+}
+
+@media (max-width: 900px) {
+  .footer {
+    font-size: 2.5vw;
+
+  }
+}
+
+@media (max-width: 767px) {
+  .footer {
+    font-size: 3vw;
+
+  }
+
+  .footerbottom a {
+    padding: 4%;
+
+  }
+}
