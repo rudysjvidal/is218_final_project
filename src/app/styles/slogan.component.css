@@ -32,3 +32,30 @@
     text-transform: uppercase;
   }
 
+  @media (max-width: 1298px) {
+
+    .slogan-text{
+      padding-top: 25px;
+      padding-bottom: 48px;
+      height: 250px;
+    }
+
+    .slogan-text h3 {
+      font-size: 30px;
+      line-height: 60px;
+    }
+    .slogan-text h2 {
+      font-size: 60px;
+      line-height: 60px;
+    }
+  }
+
+  @media (max-width: 550px) {
+    .slogan-text h2{
+      text-align: center;
+    }
+
+    .slogan-text h3 {
+      line-height: 40px;
+    }
+  }
