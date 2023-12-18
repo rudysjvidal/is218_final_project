@@ -1,4 +1,4 @@
-//import styles from '../src/app/styles/slogan.component.css';
+import styles from '../src/app/styles/slogan.component.css';
 
 
 export default function Slogan() {
