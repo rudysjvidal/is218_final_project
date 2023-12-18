@@ -81,3 +81,22 @@
 }
 
 
+@media (max-width: 887px) {
+    .shop-color h3 {
+        font-size: 48px;
+    }
+}
+
+@media (max-width: 667px) {
+    .shop-color h3 {
+        font-size: 38px;
+    }
+
+    .cardss>* {
+
+        max-width: 100px;
+        /* Set a maximum width */
+        width: 50%;
+        /* Responsive width */
+    }
+}
