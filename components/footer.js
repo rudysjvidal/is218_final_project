@@ -1,4 +1,4 @@
-//import styles from '../src/app/styles/footer.component.css';
+import styles from '../src/app/styles/footer.component.css';
 
 
 import React from 'react';
