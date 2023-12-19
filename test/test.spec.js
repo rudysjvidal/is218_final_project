@@ -6,7 +6,7 @@ const expectedSubscribeButtonText = 'Subscribe';
 
 test('Navbar exists and navigates correctly', async ({ page }) => {
     // Navigate to your application
-    await page.goto('http://localhost:3000/');
+    await page.goto('https://is218-final-project.vercel.app/');
 
     // Check if the navbar is present
     const navbar = await page.locator('.menu'); // Adjust the selector as needed
@@ -20,13 +20,13 @@ test('Navbar exists and navigates correctly', async ({ page }) => {
 
 
 test('Call to Action button exists and is clickable', async ({ page }) => {
-    await page.goto('http://localhost:3000/');
-    const buttonCount = await page.locator('Button').count();
+    await page.goto('https://is218-final-project.vercel.app/');
+    const buttonCount = await page.locator('.button-div Button').count();
     expect(buttonCount).toBe(expectedHeroLinkCount);
 });
 
 test('Subscribe button exists and is clickable', async ({ page }) => {
-    await page.goto('http://localhost:3000/');
+    await page.goto('https://is218-final-project.vercel.app/');
     const newsletterForm = await page.locator('.mc-embedded-subscribe');
     expect(await newsletterForm.locator('input[type="submit"]'));
 });
@@ -43,7 +43,7 @@ test('Check if the links in the footer are clickable', async ({ page }) => {
 
 test('Check if the links in the footer are clickable', async ({ page }) => {
     // Navigate to the page where the footer is located
-    await page.goto('http://localhost:3000'); // Replace with the URL of your application
+    await page.goto('https://is218-final-project.vercel.app/'); // Replace with the URL of your application
 
     // Wait for the footer to be visible
     await page.waitForSelector('.footer');
