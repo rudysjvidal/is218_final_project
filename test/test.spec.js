@@ -3,6 +3,7 @@ const { test, expect } = require('@playwright/test');
 const expectedHeroLinkCount = 1;
 const expectedSubscribeButtonText = 'Subscribe';
 
+
 test('Navbar exists and navigates correctly', async ({ page }) => {
     // Navigate to your application
     await page.goto('https://is218-final-project.vercel.app/');
@@ -17,6 +18,7 @@ test('Navbar exists and navigates correctly', async ({ page }) => {
     expect(itemCount).toBe(4);
 });
 
+
 test('Call to Action button exists and is clickable', async ({ page }) => {
     await page.goto('https://is218-final-project.vercel.app/');
     const buttonCount = await page.locator('.button-div Button').count();
@@ -28,6 +30,16 @@ test('Subscribe button exists and is clickable', async ({ page }) => {
     const newsletterForm = await page.locator('.mc-embedded-subscribe');
     expect(await newsletterForm.locator('input[type="submit"]'));
 });
+
+/*
+
+test('Check if the links in the footer are clickable', async ({ page }) => {
+    const footerLink = page.locator('.footer .column #privacy-policy');
+
+    const isClickable = await footerLink.isVisible() && await footerLink.isClickable();
+  
+    expect(isClickable).toBe(true);
+});*/
 
 test('Check if the links in the footer are clickable', async ({ page }) => {
     // Navigate to the page where the footer is located
