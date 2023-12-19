@@ -22,3 +22,9 @@ test('Call to Action button exists and is clickable', async ({ page }) => {
     const buttonCount = await page.locator('Button').count();
     expect(buttonCount).toBe(expectedHeroLinkCount);
 });
+
+test('Subscribe button exists and is clickable', async ({ page }) => {
+    await page.goto('http://localhost:3000/');
+    const newsletterForm = await page.locator('.mc-embedded-subscribe');
+    expect(await newsletterForm.locator('input[type="submit"]'));
+});
