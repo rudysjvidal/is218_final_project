@@ -19,7 +19,7 @@ export default function Navbar() {
                             <p>Men</p>
                         </Link>
                         <Link href="/#women">
-                            <p>Women</p>
+                            <p>Women </p>
                         </Link>
                         <Link href="/#colored">
                             <p>Shop By Color</p>

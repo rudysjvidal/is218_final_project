@@ -1,12 +1,8 @@
 .navbar {
-  display: flex;
   align-items: center;
-  background-color: #FFFFFF;
   padding: 28px 34px;
+  width: 100%;
 }
-
-
-
 
 .navbar .menu {
   display: flex;
@@ -17,8 +13,13 @@
   /* Center horizontally */
 }
 
-.navbar .menu>* {
-  flex: .2;
+.navbar .menu .menuitems {
+  flex: .75;
+  padding: 0 4%;
+}
+
+.navbar .menu .logo {
+  flex: .25;
 }
 
 .navbar .menu>a {
@@ -28,6 +29,8 @@
 .navbar .logo img {
   width: 100%;
   min-width: 140px;
+  max-width: 300px;
+  margin: auto;
 
 }
 
@@ -42,10 +45,22 @@
   white-space: nowrap;
 }
 
+.menuitems {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+}
+
 @media (max-width: 850px) {
 
   .navbar .menu a {
     font-size: 26px;
+  }
+
+  .navbar .menu .menuitems {
+    padding: 0 3%;
   }
 }
 
@@ -66,7 +81,30 @@
     width: 50%;
   }
 
+  .navbar .logo img {
+    min-width: 100px;
+    max-width: 250px;
+
+  }
+
+
+  .navbar {
+    padding: 28px 24px;
+  }
+
   .navbar .menu a {
     font-size: 18px;
+  }
+}
+
+@media (max-width: 667px) {
+  .navbar .menu .menuitems {
+    padding: 0 2%;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar .menu .menuitems {
+    padding: 0 1%;
   }
 }
