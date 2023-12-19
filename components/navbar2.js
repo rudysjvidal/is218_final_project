@@ -12,8 +12,11 @@ export default function Navbar() {
 
                 <div className="menu">
                     <div className="logo">
-                        <img className="nav-img" src="/images/plain-shirts-black.webp" alt="PlainShirts Logo"></img>
+                        <Link href="/#promotion">
+                            <img className="nav-img" src="/images/plain-shirts-black.webp" alt="PlainShirts Logo"></img>
+                        </Link>
                     </div>
+
                     <div className='menuitems'>
                         <Link href="/#men">
                             <p>Men</p>
