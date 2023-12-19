@@ -28,3 +28,20 @@ test('Subscribe button exists and is clickable', async ({ page }) => {
     const newsletterForm = await page.locator('.mc-embedded-subscribe');
     expect(await newsletterForm.locator('input[type="submit"]'));
 });
+
+test('Check if the links in the footer are clickable', async ({ page }) => {
+    // Navigate to the page where the footer is located
+    await page.goto('http://localhost:3000'); // Replace with the URL of your application
+
+    // Wait for the footer to be visible
+    await page.waitForSelector('.footer');
+
+    // Target the 'Privacy Policy' link directly
+    const privacyPolicyLink = page.locator('text=Privacy Policy');
+
+    // Check if the 'Privacy Policy' link is visible
+    await expect(privacyPolicyLink).toBeVisible();
+
+    // Check if the 'Privacy Policy' link is clickable
+    await expect(privacyPolicyLink).toBeEnabled();
+});
