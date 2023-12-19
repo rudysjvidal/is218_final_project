@@ -27,6 +27,7 @@ export default function Home() {
       <Slogan />
       <Mailchimp />
       <Footer />
+      <CookieBanner />
     </main>
   )
 }
