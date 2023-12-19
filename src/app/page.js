@@ -9,6 +9,7 @@ import About from '../../components/about';
 import Slogan from '../../components/slogan';
 import Mailchimp from '../../components/mailchimp';
 import Footer from '../../components/footer';
+import CookieBanner from '../../components/cookiebanner';
 
 
 
