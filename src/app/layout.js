@@ -21,9 +21,11 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <>
       <GoogleAnalytics GA_MEASUREMENT_ID="G-XE9L0ZK53V" />
-      <body className={poppins.className}>{children}</body>
-    </html>
+      <html lang="en">
+        <body className={poppins.className}>{children}<CookieBanner /></body>
+      </html>
+    </>
   )
 }
