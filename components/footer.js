@@ -21,7 +21,7 @@ export default function Footer() {
                 <div className="column">
                     <p className="heading">Customer Service</p>
                     <Link href="/terms">
-                        <p>Terms and Conditions</p>
+                        <p>Cookie Consent Info</p>
                     </Link>
 
                     <Link href="/privacy">
