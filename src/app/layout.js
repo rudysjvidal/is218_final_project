@@ -2,6 +2,9 @@ import { Inter } from 'next/font/google'
 import { Poppins } from 'next/font/google'
 import './globals.css'
 import Head from 'next/head';
+import GoogleAnalytics from '../../components/GoogleAnalytics';
+import CookieBanner from '../../components/cookiebanner';
+import 'tailwindcss';
 
 const inter = Inter({ subsets: ['latin'] })
 /*const poppins = Poppins({ subsets: ['latin'], weights: ['500', '800']})*/
@@ -19,7 +22,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={poppins.className}>{children}</body>
+      <GoogleAnalytics GA_MEASUREMENT_ID="G-XE9L0ZK53V" />
+      <body className={poppins.className}>{children}<CookieBanner /></body>
     </html>
   )
 }
