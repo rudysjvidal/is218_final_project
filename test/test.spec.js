@@ -16,3 +16,9 @@ test('Navbar exists and navigates correctly', async ({ page }) => {
     const itemCount = await items.count();
     expect(itemCount).toBe(4);
 });
+
+test('Call to Action button exists and is clickable', async ({ page }) => {
+    await page.goto('http://localhost:3000/');
+    const buttonCount = await page.locator('Button').count();
+    expect(buttonCount).toBe(expectedHeroLinkCount);
+});
